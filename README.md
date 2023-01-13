@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @shroomok
+- 👀 I’m interested in launching web projects related to Mushroom Cultivation topic
+- 🌱 I’m currently working on https://shroomok.com - mushroom growers community
