@@ -1,0 +1,1797 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>How to grow mushrooms at home | Shroomok</title>
+<link rel="canonical" href="https://shroomok.com/en/" />
+<meta name="description" content="Home mushroom cultivation, essentials" />
+<meta name="og:description" content="Home mushroom cultivation, essentials" />
+<meta property="og:title" content="How to grow mushrooms at home | Shroomok" />
+<meta property="og:url" content="https://shroomok.com/en/" />
+<meta name="twitter:title" content="How to grow mushrooms at home | Shroomok" />
+<meta name="twitter:site" content="@shroomok" />
+<meta name="twitter:card" content="summary" />
+<style>
+        /*==========  Global  ==========*/
+        /*==========  Basics  ==========*/
+        html,
+        body {
+            height: 100%;
+        }
+        body {
+            background: #fff;
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+            font-size: 15px;
+            line-height: 26px;
+            color: #000;
+            font-family: 'Roboto Slab', serif;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+        #mushroomhead {
+            width: 384px;
+            height: 384px;
+            margin: 2rem auto 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+            color:#000;
+        }
+        .good-bye a {
+            color: #9a6428;
+            text-decoration: none;
+            border-bottom: 1px solid #9a6428;
+        }
+        a:hover {
+            border:none;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Comfortaa', cursive;
+        }
+        /*==========  Sections  ==========*/
+        .header {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            background: #fff;
+            /*background-image: linear-gradient(to bottom, #d6d6d6 0%, #b7b6b4 100%);*/
+        }
+        .header .master-head {
+            padding: 7% 30px 0;
+        }
+        .header .page-title {
+            padding: 0 30px 0 30px;
+            font-size: 60px;
+            line-height: 1em;
+            letter-spacing: 10px;
+            color: #020202;
+        }
+        .header .page-description {
+            margin: 30px auto;
+            max-width: 600px;
+            font-size: 18px;
+            line-height: 2em;
+            color: #020202;
+        }
+        .header .scroll-button {
+            color: #FFF;
+            font-size: 20px;
+            padding: 15px 20px 15px 20px;
+            display: inline-block;
+            background: #ce995f;
+            cursor: pointer;
+            transition-duration: 0.4s;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .header .scroll-button:hover {
+            background: #ac6c21;
+        }
+        .header .scroll-button:active {
+            background: #ac6c21;
+        }
+        .main-content {
+            margin: 0px auto;
+            position: relative;
+        }
+        .main-content .section-inner,
+        .main-content .post-wrapper {
+            *zoom: 1;
+        }
+        .main-content .section-inner:before,
+        .main-content .post-wrapper:before,
+        .main-content .section-inner:after,
+        .main-content .post-wrapper:after {
+            content: "";
+            display: table;
+        }
+        .main-content .section-inner:after,
+        .main-content .post-wrapper:after {
+            clear: both;
+        }
+        .footer {
+            background: #fff;
+            padding: 40px 0px 20px 0px;
+            position: relative;
+            z-index: 1;
+        }
+        .footer .good-bye {
+            text-align: center;
+            font-size: 18px;
+            line-height: 36px;
+        }
+        .footer .good-bye p {
+            display: block;
+            margin: 0px auto 30px auto;
+            clear: both;
+        }
+        .section .section-inner {
+            margin: 0px auto;
+            width: 1024px;
+        }
+        @media only screen {
+            .section .section-inner {
+                width: auto;
+                max-width: 1024px;
+            }
+        }
+        /*==========  Stem  ==========*/
+        .stem-wrapper {
+            position: fixed;
+            top: 0px;
+            bottom: 0px;
+            left: 50%;
+        }
+        .stem-wrapper.color-yellow .stem-background {
+            background: #f1d2ab;
+        }
+        .stem-wrapper.color-green .stem-background {
+            background: #f1d2ab;
+        }
+        .stem-wrapper.color-white .stem-background {
+            background: #FFF;
+        }
+        .stem-wrapper .stem,
+        .stem-wrapper .stem-background {
+            position: absolute;
+            top: 0px;
+            left: -30px;
+            width: 60px;
+        }
+        .stem-wrapper .stem {
+            background: #f1d2ab;
+            height: 100%;
+        }
+        .stem-wrapper .stem-background {
+            background: #f1d2ab;
+            height: 50%;
+            transition-duration: 0.5s;
+        }
+        .stem-padding,
+        .single-stem-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0px auto;
+            background: #f1d2ab;
+            /*background: url(/img/stem-mask.png) repeat-y top center;*/
+        }
+        .single-stem-icon.scroll-to-top {
+            cursor: pointer;
+            background: #f1d2ab;
+            /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/scroll-to-top-icon.png);*/
+        }
+        /*==========  Post wrapper ==========*/
+        .post-wrapper {
+            *zoom: 1;
+        }
+        .post-wrapper:before,
+        .post-wrapper:after {
+            content: "";
+            display: table;
+        }
+        .post-wrapper:after {
+            clear: both;
+        }
+        .post-wrapper .post {
+            position: relative;
+            width: 40%;
+            padding: 0px 0px 60px 12px;
+            clear: both;
+            opacity: 1;
+            -webkit-perspective: 1000px;
+            perspective: 1000px;
+        }
+        .post-wrapper .post.hidden .post-content {
+            -webkit-transform: translateY(100px) rotateX(30deg);
+            transform: translateY(100px) rotateX(30deg);
+            opacity: 0;
+        }
+        .post-wrapper .post:hover .post-content,
+        .post-wrapper .post.active .post-content {
+            opacity: 1;
+        }
+        .post-wrapper .post:hover .post-content .meta,
+        .post-wrapper .post.active .post-content .meta {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+        }
+        .post-wrapper .post:nth-child(even) {
+            float: right;
+        }
+        .post-wrapper .post:nth-child(odd) {
+            float: left;
+        }
+        .post-wrapper .post:nth-child(even) .stem-overlay {
+            left: -110px;
+            display:none;
+        }
+        .post-wrapper .post:nth-child(odd) .stem-overlay {
+            right: -110px;
+            display:none;
+        }
+        .post-wrapper .post.music-icon .stem-overlay .icon {
+            background: #f1d2ab;
+            /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/music-icon.png);*/
+        }
+        .post-wrapper .post.bitbucket-icon .stem-overlay .icon {
+            background: #f1d2ab;
+            /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/bitbucket-icon.png);*/
+        }
+        .post-wrapper .post.m-icon .stem-overlay .icon {
+            background: #f1d2ab;
+            /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/m-icon.png);*/
+        }
+        .post-wrapper .post.twitter-icon .stem-overlay .icon {
+            background: #f1d2ab;
+            /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/twitter-icon.png);*/
+        }
+        .post-wrapper .post .stem-overlay {
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            width: 60px;
+        }
+        .post-wrapper .post .stem-overlay .icon {
+            background: transparent no-repeat center center;
+            height: 60px;
+            width: 60px;
+            cursor: pointer;
+        }
+        .post-wrapper .post .stem-overlay .stem-mask {
+            position: absolute;
+            top: 60px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            background: #f1d2ab;
+            /*background: url(/img/stem-mask.png) repeat-y top center;*/
+        }
+        .post-wrapper .post .post-content {
+            opacity: 0.3;
+            transition-duration: 0.4s;
+            -webkit-transform: none;
+            transform: none;
+        }
+        .post-wrapper .post .post-content .meta {
+            color: #7d7d7d;
+            margin: 0px 0px 15px 0px;
+            letter-spacing: 1px;
+            opacity: 0;
+            transition-duration: 1s;
+            transition-delay: 0.2s;
+            -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+        }
+        .post-wrapper .post .post-content .post-title {
+            font-size: 32px;
+            line-height: 42px;
+            text-decoration: underline;
+            margin: 0px 0px 15px 0px;
+        }
+        /*==========  Media queries  ==========*/
+        @media only screen and (max-width: 280px) {
+            .main-content,
+            .main-content .section-inner {
+                max-width: none;
+            }
+            .stem-wrapper {
+                left: 80px;
+            }
+            .stem-padding,
+            .single-stem-icon {
+                margin: 0px;
+                float: left;
+                margin-left: 50px;
+            }
+            .post-wrapper .post,
+            .post-wrapper .post:nth-child(even),
+            .post-wrapper .post:nth-child(odd) {
+                width: auto;
+                margin-left: 110px;
+                float: none;
+            }
+            .post-wrapper .post .stem-overlay,
+            .post-wrapper .post:nth-child(even) .stem-overlay,
+            .post-wrapper .post:nth-child(odd) .stem-overlay {
+                left: -60px;
+                right: auto;
+            }
+            .post-wrapper .post .post-content {
+                padding: 0px 50px;
+            }
+        }
+        @media only screen and (max-width: 700px) {
+            * {
+                background: none !important;
+            }
+            .header .page-description {
+                margin: 30px auto 0;
+            }
+            #mushroomhead {
+                width: 324px;
+                height: 324px;
+                margin: 0 auto ;
+                padding: 0;
+            }
+            .post-wrapper * {
+                background: none !important;
+            }
+            .post-wrapper .post {
+                width: 100%;
+            }
+            .post-wrapper .post:nth-child(even) {
+                float: left;
+            }
+            .header .page-title {
+                font-size: 40px;
+            }
+            .post-wrapper .post {
+            }
+            .post-wrapper .post .post-content {
+                padding: 0 25px;
+            }
+            .stem-wrapper {
+                left: 60px;
+            }
+            .stem-padding,
+            .single-stem-icon {
+                margin-left: 30px;
+                display:none;
+            }
+        }
+        .clearfix {
+            *zoom: 1;
+        }
+        .clearfix:before,
+        .clearfix:after {
+            content: "";
+            display: table;
+        }
+        .clearfix:after {
+            clear: both;
+        }
+    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script src="https://kit.fontawesome.com/c4c3cb333b.js" crossorigin="anonymous"></script>
+<link id="favicon" rel="icon" type="image/png" href="https://shroomok.com/images/shroomok-normal-min.png">
+<meta name="twitter:site" content="Shroomok" />
+<style>
+        .underline { text-decoration: underline}
+        .underline:hover { text-decoration: none}
+    </style>
+</head>
+<body>
+<div class="stem-wrapper">
+<div class="stem"></div>
+<div class="stem-background"></div>
+</div>
+<header class="section header">
+<div class="section-inner">
+<div class="master-head" style="margin-top:0; padding-top:0">
+<div id="mushroomhead" style="margin-top:0; padding-top:0">
+<a style="text-decoration: none" title="Shroomok home page" href="https://shroomok.com/"><img style="border: 0; width: 100%;" src="https://shroomok.com/img/logo512_stand_with_ukraine.png" /></a>
+</div>
+<style>
+                .videowrapper {
+                    float: none;
+                    clear: both;
+                    width: 100%;
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    padding-top: 25px;
+                    height: 0;
+                }
+                .videowrapper iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+<br/>
+<h1 class="page-title"><a style="text-decoration: none" title="Shroomok home page" href="https://shroomok.com/">shroomok</a></h1>
+<br/>
+<h2>
+Welcome to the illustrated mushroom cultivation guide
+</h2>
+<div style="font-size: 1.15rem; line-height: 2rem; margin-top:0.25rem;">
+<a title="Shroomok gallery" target="_blank" href="https://shroomok.com/gallery">Mushroom Gallery</a>
+<br/>
+<a title="Shroomok Discord" target="_blank" rel="noopener nofollow" href="https://discord.com/invite/ngKhQDmymD">Join Discord</a>
+<br/>
+<a title="Shroomok Reddit" target="_blank" rel="noopener nofollow" href="https://reddit.com/r/Shroomok">Join Reddit</a>
+</div>
+<div style="margin: 1rem 0 1rem;">
+<form method="GET" action="https://shroomok.com/search">
+<input style="font-size: 1.25rem; width: 260px;" name="q" type="text">
+<button style="font-size: 1.25rem">Search</button>
+</form>
+</div>
+<a title="Support Shroomok" target="_blank" rel="noopener" href="https://www.buymeacoffee.com/shroomok">Donate $</a>
+</div>
+</div> 
+</header> 
+<div class="section main-content" style="overflow: hidden;">
+<div class="section-inner">
+<div class="stem-padding"></div>
+<div class="post-wrapper">
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How to grow mushrooms at home" href="https://shroomok.com/en/wiki/How_to_grow_magic_mushrooms_at_home">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">How to grow mushrooms at home</h2>
+<div class="entry-content">
+<p>How to start mushroom growing from scratch. Main stages in growing process every mushroom grower should know. How to use Shroomok Mushroom Cultivation Guide and succeed from the very first attempt. Entry point of the growing journey!</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/2c171d/500_Fruiting-psilocybe-cubensis-mushrooms-brazil-strain.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Stuff to buy for growing" href="https://shroomok.com/en/wiki/Stuff_to_buy_for_growing">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Stuff to buy for growing</h2>
+<div class="entry-content">
+<p>Check the list of required stuff for your first mushroom grow! Shopping list and necessary equipment for mushroom cultivation. List of helpful stuff to make your mushroom growing process easier, however they are not necessary for the first try</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/579a52/500_Shopping-list-to-start-mushroom-growing.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How to make spore syringe" href="https://shroomok.com/en/wiki/Liquid_psilocybe_spore_syringe">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">How to make spore syringe</h2>
+<div class="entry-content">
+<p>STEP 1. Let’s make liquid spore syringe from a spore print. Life hack for noobs: spore syringe in zip bag without glovebox, SAB or laminar flow hood</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/c0bb1d/500_How-to-make-spore-syringe-mushroom-growing.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Choose substrate for mushrooms" href="https://shroomok.com/en/wiki/Choose_and_prepare_substrate_for_magic_mushrooms">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Choose substrate for mushrooms</h2>
+<div class="entry-content">
+<p>STEP 2. Overall guide about substrate types for mushroom growing. The difference between substrates: grain for spawn, bulk and casing. Choose right grain for spawn. First step of grain substrate preparation</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/9a5af3/500_Substrate-for-mushroom-growing-grain-bulk-casing-.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Cook the grain substrate for Spawn" href="https://shroomok.com/en/wiki/Cooking_the_substrate_for_psilocybes">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Cook the grain substrate for Spawn</h2>
+<div class="entry-content">
+<p>STEP 3. Let’s prepare first substrate for magic mushrooms. Recipes and cooking time for different types of grain. Moisture level and useful additives for mushroom spawn</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/2aeae8/500_Cooking-grain-substrate.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="DIY Spawn jars &amp; Spawn bags" href="https://shroomok.com/en/wiki/How_to_make_jars_with_substrate_for_mushroom_spawn">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">DIY Spawn jars &amp; Spawn bags</h2>
+<div class="entry-content">
+<p>STEP 4. How to prepare Spawn Jars and Spawn Bags by your own and save money. Spawn Jars types: autoclavable polypropylene and glass jars. Components for making Inoculation Port and Air Filter. Recommended volume for Spawn Jars and Spawn Bags</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/c76592/500_Diy-spawn-jars-and-spawn-bags.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Substrate sterilisation" href="https://shroomok.com/en/wiki/Substrate_sterilization_before_adding_psilocybe_spores">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Substrate sterilisation</h2>
+<div class="entry-content">
+<p>STEP 5. Sterilization in Pressure Cooker or Autoclave to eliminate all forms of microorganisms in substrate (molds, fungi, bacteria, spores). Time vs Pressure for sterilization process. Alternative thermal treatment in multicooker, instant pot and oven</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/23db2d/500_Grain-substrate-sterilization-in-mushroom-cultivation.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Inoculation without glove box" href="https://shroomok.com/en/wiki/Inoculation_without_glove_box">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Inoculation without glove box</h2>
+<div class="entry-content">
+<p>STEP 6. How to introduce spores or Liquid Culture in sterile substrate. Sterility requirements. Inoculation process without glovebox, SAB or laminar flow hood</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/97bd9e/500_Inoculating-grain-substrate.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Incubator &amp; Grain colonization" href="https://shroomok.com/en/wiki/Magic_mushrooms_incubator_control">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Incubator &amp; Grain colonization</h2>
+<div class="entry-content">
+<p>STEP 7. How to make incubator for mushrooms. Colonization conditions for mycelium. First signs of mycelium. When and why do we need Break and Shake? Colonization problems and solutions. No signs of mycelium growth or why mycelium grow too slow</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/c147a0/500_Incubator-spawn-grain-colonization-period.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Spawn to Bulk &amp; Casing" href="https://shroomok.com/en/wiki/Making_mushroom_cake,_spawn_to_bulk,_and_casing">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Spawn to Bulk &amp; Casing</h2>
+<div class="entry-content">
+<p>STEP 8. How to make mushroom cake or spawn to bulk for MonoTub, Bottle-tek etc. How to prepare bulk and casing substrate. Advantages of bulk and casing. Substrate recipes. Additives for fruiting substrate and casing. Bulk and Casing colonization</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/897fa3/500_Mushroom-cake-spawn-to-bulk-casing.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Cold shock: pros &amp; cons" href="https://shroomok.com/en/wiki/All_you_need_to_know_about_cold_shock_for_magic_mushrooms">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Cold shock: pros &amp; cons</h2>
+<div class="entry-content">
+<p>One of the most debated topic among mushroom growers. Pros and cons of cold shocking in mushroom growing. Cold Shock and Heat Shock. Scientific studies on the effect of temperature shock in mushroom cultivation. Cold Shock Experiments by Shroomok</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/75adec/500_Cold-shock-and-heat-shock-in-mushroom-cultivation.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="GrowBox Tek" href="https://shroomok.com/en/wiki/DIY_Grow_Box_for_Magic_mushrooms._Fruiting_conditions">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">GrowBox Tek</h2>
+<div class="entry-content">
+<p>STEP 9. GrowBox Tek. How to make GrowBox as a fruiting chamber for mushroom growing. Useful gadgets for GrowBox. Basic fruiting conditions in growbox: temperature, humidity, light, fresh air exchange</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/dcef3e/500_Growbox-for-mushroom-growing.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Pinhead initiation. Fruiting conditions" href="https://shroomok.com/en/wiki/Fruiting_period._Pinhead_initiation,_mushroom_pinning_and_mushrooms_growth_parameters">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Pinhead initiation. Fruiting conditions</h2>
+<div class="entry-content">
+<p>STEP 10. Basic principles of pin setting. Fruiting parameters for mushrooms pinning, primordia formation, and fruit bodies development of Golden Teacher, Thai and Brazil strains. Growing problems during fruiting period and how to trigger pinheads.</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/3ee90c/500_Mushroom-life-cycle.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How to make mushroom spore print" href="https://shroomok.com/en/wiki/How_to_make_magic_mushrooms_spore_prints">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">How to make mushroom spore print</h2>
+<div class="entry-content">
+<p>STEP 11. Let’s make your own spore prints before harvesting! Save money and save mushroom genetic for the future mushroom cultivation and mycological experiments without fear of loss</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/0cca6a/500_How-to-make-a-mushroom-spore-print.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Flush #1. When and how to pick mushrooms" href="https://shroomok.com/en/wiki/Magic_mushroom_harvesting_time,_first_flush">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Flush #1. When and how to pick mushrooms</h2>
+<div class="entry-content">
+<p>STEP 12. What is the best time for mushroom harvesting: before torn veil or after torn veil? Twist and pull or cut? Why is it important to crop mushrooms in time?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/a1e64a/500_First-flush-of-mushroom-fruiting-harvesting-time.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How to dry and store mushrooms" href="https://shroomok.com/en/wiki/How_to_dry_and_store_psilocybe_mushrooms">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">How to dry and store mushrooms</h2>
+<div class="entry-content">
+<p>STEP 13. Save your mushrooms after harvesting for a long time! How to dry magic mushrooms properly and save their potency. How to dry shrooms without dehydrator. The best tempretaure for mushroom drying. It is possible to store magic mushrooms for years!</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/0193ff/500_Dry-psilocybe-mushrooms.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Rehydration/soaking of mushroom cakes" href="https://shroomok.com/en/wiki/Rehydration_of_psilocybe_cakes">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Rehydration/soaking of mushroom cakes</h2>
+<div class="entry-content">
+<p>STEP 14. What is rehydration? What is flushing? Why is it necessary to soak mushroom cake immediately after harvesting? How to rehydrate mushroom cake and trigger new rich flush of mushroom fruiting cycle</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/36abba/500_Mushroom-cake-rehydration-soaking-for-new-flush.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Flush #2 of fruiting period" href="https://shroomok.com/en/wiki/Second_flush_of_magic_mushrooms_harvest">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Flush #2 of fruiting period</h2>
+<div class="entry-content">
+<p>STEP 15. Harvest results after first rehydration. Second flush of mushroom fruiting and crop weight</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/a400eb/500_Psilocybe-cubensis-mushrooms-growing-thai-strain-second-flush-of-harvesting.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Flush #3 of fruiting period" href="https://shroomok.com/en/wiki/Third_flush_of_magic_mushrooms_harvest">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Flush #3 of fruiting period</h2>
+<div class="entry-content">
+<p>STEP 16. Results of the most productive third flush of mushroom fruiting. Yield weight of 3rd flush. Rehydration and preparation for the 4th flush of fruiting cycle</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/2c171d/500_Fruiting-psilocybe-cubensis-mushrooms-brazil-strain.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Flush #4 of fruiting period" href="https://shroomok.com/en/wiki/Fourth_flush_of_magic_mushrooms_harvest">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Flush #4 of fruiting period</h2>
+<div class="entry-content">
+<p>STEP 17. Results of the fourth flush of mushroom fruiting. Yield weight of 4th flush. Rehydration and preparation for the 5th flush of fruiting cycle</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/a8d2d3/500_Psilocybe-cubensis-fourth-flush-of-fruiting-and-harvesting.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Flush #5 of fruiting period" href="https://shroomok.com/en/wiki/Fifth_flush_of_magic_mushrooms_harvest">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Flush #5 of fruiting period</h2>
+<div class="entry-content">
+<p>STEP 18. Harvest results of the fifth flush of mushroom fruiting cycle</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/747dba/500_Magic-psilocybe-mushrooms-brazil-strain-fruiting-fifth-flush.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Flush #6 of fruiting period" href="https://shroomok.com/en/wiki/Sixth_flush_of_magic_mushrooms_harvest">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Flush #6 of fruiting period</h2>
+<div class="entry-content">
+<p>STEP 19. Results and final harvest of sixth flush of mushroom fruiting cycle</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/d026e6/500_Fungi-growing-sixth-flush-of-fruiting-and-harvesting.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Wasted shroom cakes" href="https://shroomok.com/en/wiki/Disposing_of_magic_mushrooms_cakes">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Wasted shroom cakes</h2>
+<div class="entry-content">
+<p>STEP 20. How to dispose of mushroom cakes or mushroom blocks, when the fruiting cycle is finished. How to bury mushroom cake and get harvest outdoor</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/6558db/500_Wasted-mushroom-cake-carry-on-or-throw-away.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Mushroom grow report in numbers" href="https://shroomok.com/en/wiki/Magic_mushrooms_growing_statistics_with_charts">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Mushroom grow report in numbers</h2>
+<div class="entry-content">
+<p>Let’s sum up! Yield data by flushes and by strains in graphs, charts, statistics. The most popular Q&amp;A about mushroom growing cycle</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/cd9a51/500_Psilocybe-cubensis-mushrooms-fruiting-graph-en.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Grain to grain transfer" href="https://shroomok.com/en/wiki/Grain_to_Grain_Transfer_(G2G)">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Grain to grain transfer</h2>
+<div class="entry-content">
+<p>Fast and easy Inoculation and Mycelium Multiplication method both for newbies and experienced growers</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/49e95e/500_G2G-tek.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How to grow magic truffles" href="https://shroomok.com/en/wiki/How_to_grow_magic_truffles_Psilocybe_Mexicana_and_Tampanensis">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">How to grow magic truffles</h2>
+<div class="entry-content">
+<p>Magic Truffles is a true neglect tek that newbies fall in love with. It’s a stealth growing method that easy to manage. No need to use fruiting chamber to get sclerotia harvest. This article covers Tampanensis and Mexicana psilocybe strains </p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/32acf5/500_Sclerotia-magic-truffles-growing-guide.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Shiitake growing guide" href="https://shroomok.com/en/wiki/Grow_your_first_Shiitake_mushrooms_at_home">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Shiitake growing guide</h2>
+<div class="entry-content">
+<p>Step by step growing guide and report by mrzimm. Substrate recipe for shiitake. DIY shiitake grow kit or how to make mushroom block by your own. Fruiting conditions for shiitake. Shiitake growing in the basement</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/83599a/500_Shiitake-growing-guide-shroomok.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Liquid Culture" href="https://shroomok.com/en/wiki/How_to_make_mushroom_Liquid_Culture">
+<div class="post-content">
+<p>Mushroom Growing Guide</p>
+<h2 class="post-title">Liquid Culture</h2>
+<div class="entry-content">
+<p>Liquid culture is a quick way to save and multiply mushroom mycelium. With this technique you can turn one syringe into dozens of them and inoculate hundreds of grain jars! Here we cover LC media recipes, liquid mycelium daily growth, LC contamination</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_thumbs/bb3c57/500_500_Mushroom-liquid-culture-ultimate-guide.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Mushroom contaminants" href="https://shroomok.com/en/wiki/How_to_recognize_whether_mushrooms_contaminated_or_not">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Mushroom contaminants</h2>
+<div class="entry-content">
+<p>Short library with TOP non-contam problems and common mushroom contaminants</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/77f8fe/500_Not-contamination-problems-in-mushroom-cultivation.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Overlay &amp; Stroma" href="https://shroomok.com/en/wiki/Psilocybe_growing_problems_-_overlay,_abortions,_etc">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Overlay &amp; Stroma</h2>
+<div class="entry-content">
+<p>If you find Overlay and Stroma symptoms: cottony, cloudy, mat-like or crust-like dense mycelium. Contamination or not? Why overlay appear? Is it possible to fix overlay and stroma?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/e9df8e/500_Steps-of-mushroom-overlay.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Bruises or contam?" href="https://shroomok.com/en/wiki/Mycelium_Bruises_or_Mold_Contamination">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Bruises or contam?</h2>
+<div class="entry-content">
+<p>Why magic mushrooms turned blue and have bruises? Why mycelium bruised? The main differences between bruising and mold contamination in mushroom growing</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/b5a5f3/500_Stem-bruises.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Mushroom aborts" href="https://shroomok.com/en/wiki/Mushroom_aborts">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Mushroom aborts</h2>
+<div class="entry-content">
+<p>If you find your pins and mushrooms have stalled, stopped growing and their caps turned black</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/3135a3/500_Psilocybe-cubensis-aborted-mushroom.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Fuzzy feet and caps" href="https://shroomok.com/en/wiki/Why_Mushrooms_too_Leggy,_Fuzzy_Feet_and_White_Dots_on_Caps">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Fuzzy feet and caps</h2>
+<div class="entry-content">
+<p>Long stems, Fuzzy Feet, White Dots on mushroom caps or Fluffy Caps. What all these symptoms mean to a mushroom grower</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/0a367d/500_Fuzzy-feet-caps-in-mushroom-cultivation.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Black spots on shrooms &amp; mycelium" href="https://shroomok.com/en/wiki/Black_spots_on_Mushrooms_and_Mycelium">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Black spots on shrooms &amp; mycelium</h2>
+<div class="entry-content">
+<p>Strange black spots suddenly appeared on mushroom caps and mycelium. Why is this happening? Is it contamination or not? Is it safe to take such mushrooms?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/5c7a65/500_Dark-spots-on-mushroom-caps-contam-or-not.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Mushroom metabolites" href="https://shroomok.com/en/wiki/Mycelium_metabolites_or_mushroom_pee">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Mushroom metabolites</h2>
+<div class="entry-content">
+<p>Yellow liquid appeared on the mycelium, mycelium turned a yellowish color, strange yellow-brown line appeared on the mycelium. What could it be? Contamination or not?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/4e9e99/500_Metabolites-psilocybe.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Cracked &amp; split caps" href="https://shroomok.com/en/wiki/Mushroom_caps_splitting_and_cracking_issue">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Cracked &amp; split caps</h2>
+<div class="entry-content">
+<p>A split or cracked mushroom caps and stems are neither contamination nor a disease. These symptoms indicate dehydration or imbalanced parameters in the fruiting chamber, which can be fixed. It can also be a genetic mutation that cannot be fixed</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_thumbs/543aa2/500_Mushroom-caps-splitting-cracking-issue.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Green mold aka Trichoderma" href="https://shroomok.com/en/wiki/Green_mold_contamination_aka_Trichoderma">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Green mold aka Trichoderma</h2>
+<div class="entry-content">
+<p>Signs of Trich contamination. Why Trich appear on the 2-3 flush? Add one magic component and forget about Green Mold contamination in mushroom growing. What to do with mycelium contaminated by Trichoderma Mold</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/4972bf/500_Trichoderma-mold-contamination.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Mycogone aka Wet bubble" href="https://shroomok.com/en/wiki/Mycogone_contamination_aka_wet_bubble_disease">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Mycogone aka Wet bubble</h2>
+<div class="entry-content">
+<p>Shapeless masses, fluffy blobs of mycelium ooze with amber yellow orange brown liquid. Mycelium piss or wet bubble disease aka Mycogone perniciosa? Symptoms of wet bubble contam. Why mycogone appeared on mushroom cake? How to treat wet bubble disease?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/e89d00/500_Wet-bubble-mycogone-contamination-shroomok.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Cobweb mold" href="https://shroomok.com/en/wiki/How_to_identify_and_get_rid_of_Cobweb_Mold">
+<div class="post-content">
+<p>Mushroom Troubleshooting</p>
+<h2 class="post-title">Cobweb mold</h2>
+<div class="entry-content">
+<p>Cobweb mold contamination is one of the few molds are possible to treat. Cobweb disease symptoms. Cobweb mold treatment guide. How to prevent cobweb contamination. How does cobweb look like vs mycelium </p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/0c819f/500_Cobweb-mold-dactylium.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Mushroom tea" href="https://shroomok.com/en/wiki/Magic_mushroom_tea">
+<div class="post-content">
+<p>Mushroom Consumption</p>
+<h2 class="post-title">Mushroom tea</h2>
+<div class="entry-content">
+<p>The most enjoyable way to consume magic mushrooms is a shroom tea</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/881210/500_Mushroom-tea-1.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Mushroom chocolate recipes" href="https://shroomok.com/en/wiki/Magic_mushrooms_candies_and_psilocybe_chocolate_recipes">
+<div class="post-content">
+<p>Mushroom Consumption</p>
+<h2 class="post-title">Mushroom chocolate recipes</h2>
+<div class="entry-content">
+<p>Delicious mushroom chocolate recipes. Make your own Mushroom Chocolate bar and sweets</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/117538/500_Magic-mushroom-chocolate-candy-sweets-recipe.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Mushroom microdosing guide" href="https://shroomok.com/en/wiki/Magic_mushrooms_microdosing">
+<div class="post-content">
+<p>Mushroom Consumption</p>
+<h2 class="post-title">Mushroom microdosing guide</h2>
+<div class="entry-content">
+<p>Stamets and Fadiman microdosing protocols, main difference and schedule. Individual microdose calibration and recommendations. Positive effects and possible side effects</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/b701eb/500_Paul-stamets-protocol-microdosing.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Mushroom capsules for microdosing" href="https://shroomok.com/en/wiki/Psilocybine_magic_mushroom_capsules_for_microdosing">
+<div class="post-content">
+<p>Mushroom Consumption</p>
+<h2 class="post-title">Mushroom capsules for microdosing</h2>
+<div class="entry-content">
+<p>Capsules with mushroom powder is the most convenient way to take microdoses. How to choose capsule size for mushroom microdosing and how to make mushroom capsules</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/7a809b/500_Capsules-with-mushroom-powder-for-microdosing.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How to get ready for psychedelic trip" href="https://shroomok.com/en/wiki/How_to_prepare_for_psychedelic_mushroom_trip">
+<div class="post-content">
+<p>Mushroom Consumption</p>
+<h2 class="post-title">How to get ready for psychedelic trip</h2>
+<div class="entry-content">
+<p>Useful tips you better known before psychedelic journey. Preparation for tripping, right dosage, set and setting, trip with sitter, group trip, trip in nature, recovering after psychedelic trip</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/b71860/500_Mushroom-trip-guide-2.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How to deal with bad trip" href="https://shroomok.com/en/wiki/How_to_deal_with_or_prevent_psychedelic_bad_trip">
+<div class="post-content">
+<p>Mushroom Consumption</p>
+<h2 class="post-title">How to deal with bad trip</h2>
+<div class="entry-content">
+<p>Must read before consume if you care about the mental health. What to do if psychedelic bad trip happen? How to reduce the effects of psilocybin mushrooms?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/64dbc5/500_Bad-trip-illustration.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Golden Teacher" href="https://shroomok.com/en/wiki/The_magic_of_Golden_Teacher_mushroom">
+<div class="post-content">
+<p>Mushroom Strains</p>
+<h2 class="post-title">Golden Teacher</h2>
+<div class="entry-content">
+<p>Story about the most popular Psilocybe Cubensis mushroom in the world. All about Golden Teacher strain: potency, effects, tripping, microdosing and cultivation</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/3e8185/500_Psilocybe-cubensis-golden-teacher-shroomok.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Pink Buffalo" href="https://shroomok.com/en/wiki/Pink_Buffalo_mushrooms_from_Koh_Samui_in_Thailand">
+<div class="post-content">
+<p>Mushroom Strains</p>
+<h2 class="post-title">Pink Buffalo</h2>
+<div class="entry-content">
+<p>Legends about Pink Buffalo mushroom. True story by John W. Allen and How to find this mushroom on Koh Samui island. Main features of Pink Buffalo strain and How to grow these mushrooms at home</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/63939b/500_Psilocybe-cubensis-pink-buffalo-mushrooms.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Albino Penis Envy (APE)" href="https://shroomok.com/en/wiki/Mutant_strain_Albino_Penis_Envy_aint_just_APE_but_King_Kong_of_Magic_Mushrooms">
+<div class="post-content">
+<p>Mushroom Strains</p>
+<h2 class="post-title">Albino Penis Envy (APE)</h2>
+<div class="entry-content">
+<p>Shroom story about the most provocative mushroom strain. Albino Penis Envy in books and journals. APE stronger than other Psilocybe Cubensis strains? The most common problems with APE cultivation and the best teks to choose for APE growing</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/a21cbb/500_Albino-penis-envy-APE-mushroom-strain.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Shrooms and high temperatures" href="https://shroomok.com/en/wiki/Growing_shrooms_during_the_hot_season">
+<div class="post-content">
+<p>Mushroom Strains</p>
+<h2 class="post-title">Shrooms and high temperatures</h2>
+<div class="entry-content">
+<p>To grow shrooms is a real challenge when you got constant high environment temperature. I&#039;ve collected a few solutions for successful hot season cultivation: heat tolerant species, cooling system, work on mushrooms genetic, outdoors growing</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_thumbs/cfc766/500_The-best-magic-mushroom-species-for-hot-season-growing.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How to store spore syringe" href="https://shroomok.com/en/wiki/How_to_store_mushroom_spore_syringe">
+<div class="post-content">
+<p>Mushrooms Q&amp;A</p>
+<h2 class="post-title">How to store spore syringe</h2>
+<div class="entry-content">
+<p>How to store mushroom Spore Syringe for a long time? How to identify whether spore syringe contaminated or not?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/d18aec/500_Germinated-spores-in-spore-syringe.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How long can you store dried mushrooms" href="https://shroomok.com/en/wiki/How_long_can_I_store_dried_Magic_Mushrooms">
+<div class="post-content">
+<p>Mushrooms Q&amp;A</p>
+<h2 class="post-title">How long can you store dried mushrooms</h2>
+<div class="entry-content">
+<p>Is it true that dried magic mushrooms lose their potency over time? Is it safe to take psilocybin mushrooms after 2-3-4 years of storage? Powdered mushrooms lose potency faster than whole mushrooms?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/e9ee9a/500_Dry-psilocybin-mushrooms-to-store.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How to freeze fresh shrooms" href="https://shroomok.com/en/wiki/How_to_freeze_fresh_magic_mushrooms">
+<div class="post-content">
+<p>Mushrooms Q&amp;A</p>
+<h2 class="post-title">How to freeze fresh shrooms</h2>
+<div class="entry-content">
+<p>How to freeze fresh psilocybin mushrooms properly and save their potency. How you can spoil your magic mushrooms by freezing</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/7ee004/500_Can-you-freeze-magic-mushrooms.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How to store mushroom spawn for a long time" href="https://shroomok.com/en/wiki/How_to_store_Mushroom_Spawn_for_a_long_time_and_postpone_Spawn_to_Bulk">
+<div class="post-content">
+<p>Mushrooms Q&amp;A</p>
+<h2 class="post-title">How to store mushroom spawn for a long time</h2>
+<div class="entry-content">
+<p>How long can Grain Spawn be stored? How to store Mushroom Spawn properly?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/dfcb2b/500_Spawn-jars-colonisation.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Spore print storage" href="https://shroomok.com/en/wiki/Mushroom_Spore_Print_Storage">
+<div class="post-content">
+<p>Mushrooms Q&amp;A</p>
+<h2 class="post-title">Spore print storage</h2>
+<div class="entry-content">
+<p>How long can I store mushroom spore prints? How to store spore prints properly?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/932b87/500_Psilocybe-cubensis-spore-prints.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Liquid spore VS Liquid culture" href="https://shroomok.com/en/wiki/Liquid_spore_vs_Liquid_culture">
+<div class="post-content">
+<p>Mushrooms Q&amp;A</p>
+<h2 class="post-title">Liquid spore VS Liquid culture</h2>
+<div class="entry-content">
+<p>What is the difference between Spore Syringe and Liquid culture aka Liquid Mycelium?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/e5ebab/500_Liquid-culture-vs-spore-syringe.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Terminology &amp; Abbreviations" href="https://shroomok.com/en/wiki/Mycology_Glossary_and_common_Mushroom_Growing_Abbreviations">
+<div class="post-content">
+<p>Mushrooms Q&amp;A</p>
+<h2 class="post-title">Terminology &amp; Abbreviations</h2>
+<div class="entry-content">
+<p>Mushroom cultivation glossary and basic mycology terminology with simple explanations. Popular abbreviations and acronyms are used in mushroom growing communities and cultivation guides</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/8e1cc4/500_Mycology-terminology-and-mushroom-growing-abbreviations.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="MonoTub Tek" href="https://shroomok.com/en/wiki/Forget_Monotub_Kit._DIY._How_to_make_Monotub_for_Mushrooms_by_your_own">
+<div class="post-content">
+<p>DIY equipment &amp; Teks</p>
+<h2 class="post-title">MonoTub Tek</h2>
+<div class="entry-content">
+<p>How to make an effective Monotub and forget about manual misting and FAE. Fruiting chamber configurations: Modified monotub, Unmodified monotub, Double Tub or Twin Tub, Shoebox or Mini-tub, fully Automated MonoTub and modifications</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/ba7a90/500_Monotub-guide-DIY-How-to-make-Monotub-for_mushrooms.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Bottle Tek" href="https://shroomok.com/en/wiki/Bottle-tek_or_how_to_grow_mushrooms_in_plastic_bottles">
+<div class="post-content">
+<p>DIY equipment &amp; Teks</p>
+<h2 class="post-title">Bottle Tek</h2>
+<div class="entry-content">
+<p>Complete guide on how to grow mushrooms in plastic bottle. Bottle-Tek is a newbie friendly method for mushroom growing at home. Such simple fruiting chamber is a cheap alternative for monotub, shoeboxes, growbox and other teks</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/5844a4/500_Bottle-tek-guide-mushroom-cultivation.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Cooling &amp; heating with Peltier" href="https://shroomok.com/en/wiki/Cooling_and_heating_for_mushroom_growing_with_Peltier_module">
+<div class="post-content">
+<p>DIY equipment &amp; Teks</p>
+<h2 class="post-title">Cooling &amp; heating with Peltier</h2>
+<div class="entry-content">
+<p>How to cool down mushroom fruiting chamber in hot season and vice versa keep incubation chamber warmer in a cold season? Let&#039;s figure out DIY cooling and heating for mushroom growing in one solution with using Peltier element. Ultimate guide by @mrzimm</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_thumbs/a9ee90/500_DIY-peltier-cooling-heating-for-mushroom-growing.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Incubation Chamber with °t control" href="https://shroomok.com/en/wiki/How_to_build_automatic_incubation_chamber_for_mushrooms">
+<div class="post-content">
+<p>DIY equipment &amp; Teks</p>
+<h2 class="post-title">Incubation Chamber with °t control</h2>
+<div class="entry-content">
+<p>How to make an Incubation Chamber with automated temperature control for mushroom growing. List of components for Incubator</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/142f92/500_Incubation-chamber-with-temperature-control-for-mushroom_growing.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Laminar Flow Hood for $99.86" href="https://shroomok.com/en/wiki/How_I_built_my_first_laminar_flow_hood_for_home_mycology">
+<div class="post-content">
+<p>DIY equipment &amp; Teks</p>
+<h2 class="post-title">Laminar Flow Hood for $99.86</h2>
+<div class="entry-content">
+<p>Cheap and simple DIY guide on how to make Fan Filter Unit as a alternative option for Laminar Flow Hood for mushroom growing at home for under 100$ by PsychonautJim</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/60183f/500_Laminar-flow-hood-cheap-simple-diy-guide.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="DIY magnetic stirrer for liquid culture" href="https://shroomok.com/en/wiki/How_to_make_a_magnetic_stirrer_for_liquid_culture">
+<div class="post-content">
+<p>DIY equipment &amp; Teks</p>
+<h2 class="post-title">DIY magnetic stirrer for liquid culture</h2>
+<div class="entry-content">
+<p>How to make a magnetic stirrer for home mycology: list of materials, step-by-step guide and video demonstration</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/09dafc/500_Needed-materials-for-diy-magnetic_stirrer.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Sterilization vs Pasteurization for bulk substrate" href="https://shroomok.com/en/wiki/Sterilization_vs_Pasteurization_for_bulk_substrate">
+<div class="post-content">
+<p>Talk</p>
+<h2 class="post-title">Sterilization vs Pasteurization for bulk substrate</h2>
+<div class="entry-content">
+<p>Pros and cons of Sterilization and Pasteurization for preventing green mold Trichoderma contamination in mushroom growing</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/667f48/500_Comtamination-id.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Shroomok Digest for 2022" href="https://shroomok.com/en/wiki/Shroomok_Community_Digest_for_2022">
+<div class="post-content">
+<p>Talk</p>
+<h2 class="post-title">Shroomok Digest for 2022</h2>
+<div class="entry-content">
+<p>Shroomok Discord Guild Digest for 2022</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/38d38b/500_Shroomok-digest.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Best grain spawn to bulk ratio" href="https://shroomok.com/en/wiki/What_is_the_best_ratio_of_spawn_to_bulk_for_mushroom_growing">
+<div class="post-content">
+<p>Talk</p>
+<h2 class="post-title">Best grain spawn to bulk ratio</h2>
+<div class="entry-content">
+<p>Discussion regarding the optimal ratio of grain spawn to bulk substrate for mushroom cultivation</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/8b9600/500_Spawn-to-bulk-optimal-ratio.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Coffee grounds as a substrate" href="https://shroomok.com/en/wiki/Ground_coffee_substrate_experiment_with_APE_mushrooms">
+<div class="post-content">
+<p>Talk</p>
+<h2 class="post-title">Coffee grounds as a substrate</h2>
+<div class="entry-content">
+<p>Is it possible to grow mushrooms on ground coffee substrate? Check out the story about growing magic mushrooms Albino Penis Envy on coffee grounds</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/5a7061/500_Coffee-grounds-for-magic-mushroom-growing.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Help! Overheated mycelium" href="https://shroomok.com/en/wiki/My_incubator_with_spawn_jars_was_overheated">
+<div class="post-content">
+<p>Talk</p>
+<h2 class="post-title">Help! Overheated mycelium</h2>
+<div class="entry-content">
+<p>What if I overheated mycelium in jars? What temperature kills mycelium? Is it possible to save spawn jars if incubation box had high temperature for a few hours?</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/bef510/500_Incubator-high-heat-for-mycelium.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Two strains in one mushroom cake" href="https://shroomok.com/en/wiki/I_mixed_strains_in_mushroom_cake_by_accident">
+<div class="post-content">
+<p>Talk</p>
+<h2 class="post-title">Two strains in one mushroom cake</h2>
+<div class="entry-content">
+<p>TOP-3 stories about mushroom strains and species mixed in one cake</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/cdd5a2/500_Two-mushroom-strains-in-one-mushroom-cake.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Shroomok Digest Winter 2023" href="https://shroomok.com/en/wiki/Shroomok_Digest_winter_2023">
+<div class="post-content">
+<p>Talk</p>
+<h2 class="post-title">Shroomok Digest Winter 2023</h2>
+<div class="entry-content">
+<p>Your donations, publications by community members, new guides, new discord channel, new categories on Shroomok website and first non-shroom topic article</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/7b0510/500_Shroomok-digest-winter-2023.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="How Shroomok was born" href="https://shroomok.com/en/wiki/How_Shroomok_was_born">
+<div class="post-content">
+<p>Development</p>
+<h2 class="post-title">How Shroomok was born</h2>
+<div class="entry-content">
+<p>Story about Shroomok birth, or how growing mushrooms became a web project. First ideas, attempts, mistakes, and further transformations. Tech details. MediaWiki vs WordPress. Inspiration from Tailwind. Part one</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_compressed/5011db/500_Mushroom_psychedelic_vibe.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+<article class="post">
+<div class="stem-overlay">
+<div class="icon"></div>
+<div class="stem-mask"></div>
+</div>
+<a title="Shroomok DiscordBot and Gallery" href="https://shroomok.com/en/wiki/Save_photos_directly_to_Shroomok_website_via_Discord_Bot">
+<div class="post-content">
+<p>Development</p>
+<h2 class="post-title">Shroomok DiscordBot and Gallery</h2>
+<div class="entry-content">
+<p>Shroomok becomes more image-oriented! New Gallery section on a website, lightbox script and super cool Shroomok DiscordBot which uploads photos from discord channels directly to website</p>
+<img style="margin: 1rem auto; display: block; border-radius: 1rem;" width="256" src="https://shroomok.com/img_thumbs/b19846/500_Shroomok_Robot.jpg" alt />
+</div>
+</div>
+</a>
+</article>
+</div>
+<div class="single-stem-icon scroll-to-top trigger-scroll-to-top"></div>
+</div> 
+</div> 
+<style>
+    #sticky-bottom {
+        position: fixed;
+        bottom: 0;
+        margin: 0 auto;
+        text-align:center;
+        width: 100%;
+        z-index:9999999;
+    }
+    #sticky-bottom {
+        height: 90px;
+        text-align:center;
+    }
+    @media(min-width: 500px) {
+        #sticky-bottom  {
+            height: 60px;
+        }
+    }
+    @media(min-width: 800px) {
+        #sticky-bottom { height: 90px; }
+    }
+
+    .sticky {
+        width: 320px;
+        height: 100px;
+        text-align:center;
+        margin: 0 auto;
+    }
+    @media(min-width: 500px) {
+        .sticky  {
+            width: 468px;
+            height: 60px;
+        }
+    }
+    @media(min-width: 800px) {
+        .sticky { width: 728px; height: 90px; }
+    }
+</style>
+<footer class="footer section">
+<div class="section-inner">
+<div class="good-bye">
+<p><a href="https://shroomok.com">Shroomok - Mushroom cultivation</a></p>
+</div>
+<p style="text-align: center; margin-top: 20px; padding-bottom: 120px;">
+<a rel="noopener noreferrer" target="_blank" href="https://discord.gg/ngKhQDmymD"><img width="48px" alt="Shroomok on Discord" src="https://shroomok.com/img/discord-icon.png?v=2" /></a>
+<a rel="noopener noreferrer" target="_blank" href="https://www.pinterest.ca/shroomok/"><img width="48px" alt="Shroomok on Pinterest" src="https://shroomok.com/img/pinterest-icon.png" /></a>
+<a rel="noopener noreferrer" target="_blank" href="https://www.reddit.com/r/Shroomok/"><img width="48px" alt="Shroomok on Reddit" src="https://shroomok.com/img/reddit-icon.png" /></a>
+<a rel="noopener noreferrer" target="_blank" href="https://twitter.com/shroomok"><img width="48px" alt="Shroomok on Twitter" src="https://shroomok.com/img/tw-icon.png?v=1" /></a>
+<a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/Shroomok"><img width="48px" alt="Shroomok on Facebook" src="https://shroomok.com/img/fb-icon.png?v=1" /></a>
+<a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/shroomok"><img width="48px" alt="Shroomok on Instagram" src="https://shroomok.com/img/ig-icon.png?v=1" /></a>
+<a rel="noopener noreferrer" target="_blank" title="Shroomok on Medium" href="https://medium.com/@shroomok"><img width="48px" alt="Shroomok Medium" src="https://shroomok.com/img/medium-icon.png?v=2" /></a>
+<a rel="noopener noreferrer" target="_blank" title="Buy Shroomok a coffee" href="https://www.buymeacoffee.com/shroomok"><img height="48px" alt="Buy Shroomok a Coffee" src="https://shroomok.com/img/bmc-button.png?v=2" /></a>
+</p>
+</div> 
+</footer> 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+<script>
+    (function($) {
+
+        $(document).ready(function() {
+            setupFade();
+            setupClickToScroll();
+            setupPostAnimation();
+            setupScrollToTop();
+            enableScrollAbortion();
+
+            // Trigger window.scroll, this will initiate some of the scripts
+            $(window).scroll();
+        });
+
+
+        // Allow user to cancel scroll animation by manually scrolling
+        function enableScrollAbortion() {
+            var $viewport = $('html, body');
+            $viewport.on('scroll mousedown DOMMouseScroll mousewheel keyup', function(e) {
+                if ( e.which > 0 || e.type === 'mousedown' || e.type === 'mousewheel') {
+                    $viewport.stop();
+                }
+            });
+        }
+
+        function setupScrollToTop() {
+            var scrollSpeed = 750;
+            $('.trigger-scroll-to-top').click(function(e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: 0
+                }, scrollSpeed);
+            });
+        }
+
+
+        function setupPostAnimation() {
+            var posts = $('.post-wrapper .post');
+            $(window).on('scroll resize', function() {
+
+                var currScroll = $(window).scrollTop() > $(document).scrollTop() ? $(window).scrollTop() : $(document).scrollTop(),
+                    windowHeight = $(window).height(), // Needs to be here because window can resize
+                    overScroll = Math.ceil(windowHeight*.20),
+                    treshhold = (currScroll + windowHeight) - overScroll;
+
+                posts.each(function() {
+
+                    var post = $(this),
+                        postScroll = post.offset().top
+
+                    if(postScroll > treshhold) {
+                        post.addClass('hidden');
+                    } else {
+                        post.removeClass('hidden');
+                    }
+
+                });
+
+            });
+        }
+
+        function setupFade() {
+
+            var posts = $('.post-wrapper .post').reverse(),
+                stemWrapper = $('.stem-wrapper'),
+                halfScreen = $(window).height() / 2;
+
+            $(window).on('scroll resize', function() {
+
+                delay(function() {
+
+                    var currScroll = $(window).scrollTop() > $(document).scrollTop() ? $(window).scrollTop() : $(document).scrollTop(),
+                        scrollSplit = currScroll + halfScreen;
+
+                    posts.removeClass('active').each(function() {
+
+                        var post = $(this),
+                            postOffset = post.offset().top;
+
+                        if(scrollSplit > postOffset) {
+
+                            // Add active class to fade in
+                            post.addClass('active')
+
+                            // Get post color
+                            var color = post.data('stem-color') ? post.data('stem-color') : null,
+                                allColors = 'color-green color-yellow color-white'
+
+                            stemWrapper.removeClass(allColors);
+
+                            if(color !== null) {
+                                stemWrapper.addClass('color-' + color);
+                            }
+
+                            return false;
+                        }
+
+                    });
+                }, 20);
+
+            });
+
+        }
+
+
+        function setupClickToScroll(post) {
+
+            var scrollSpeed = 750;
+
+            $('.post-wrapper .post .stem-overlay .icon').click(function(e) {
+                e.preventDefault();
+
+                var icon = $(this),
+                    post = icon.closest('.post'),
+                    postTopOffset = post.offset().top,
+                    postHeight = post.height(),
+                    halfScreen = $(window).height() / 2,
+                    scrollTo = postTopOffset - halfScreen + (postHeight/2);
+
+                $('html, body').animate({
+                    scrollTop: scrollTo
+                }, scrollSpeed);
+            });
+
+        }
+
+    })(jQuery);
+
+
+
+
+    /*==========  Helpers  ==========*/
+
+
+    // Timeout function
+    var delay = (function(){
+        var timer = 0;
+        return function(callback, ms){
+            clearTimeout (timer);
+            timer = setTimeout(callback, ms);
+        };
+    })();
+
+    $.fn.reverse = function() {
+        return this.pushStack(this.get().reverse(), arguments);
+    };
+</script>
+</body>
+</html>
